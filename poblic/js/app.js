@@ -14,7 +14,7 @@ wetherForm.addEventListener('submit',(e) => {
     response.json().then((data) => {
         if(data.location === undefined){
             weather.textContent = 'eroor'
-            console.log(data)
+          
         }
         else{
             weather.innerHTML = ''
