@@ -21,6 +21,7 @@ wetherForm.addEventListener('submit',(e) => {
              weather.innerHTML = `
              <h2>${data.country} country</h2>
              <h2>location  ${data.location} </h2>
+             <h4>date&time ${data.localtime} </h4>
              <div style="display: flex; marging-">
                  <img src="${data.weather_icons}" alt="">
                  <h2 style="  margin-left:16px ;"> ${data.temperature}◦</h2>
