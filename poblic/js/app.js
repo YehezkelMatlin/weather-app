@@ -29,7 +29,6 @@ wetherForm.addEventListener('submit',(e) => {
              <p>it is ${data.weather_descriptions}</p>
              <p>it's feels like ${data.feelslike}</p>
          </p>`
-            
         }
     })
 })
