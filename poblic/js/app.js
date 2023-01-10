@@ -10,7 +10,7 @@ wetherForm.addEventListener('submit',(e) => {
 
    weather.innerHTML = ' <img  class="loading" src="/img/loading.gif" alt="">'
 
-   fetch('http://localhost:3000/weather?address='+ location).then((response) => {
+   fetch('/weather?address='+ location).then((response) => {
     response.json().then((data) => {
         if(data.location === undefined){
             weather.textContent = 'eroor'
