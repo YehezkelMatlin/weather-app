@@ -33,7 +33,7 @@ app.use(express.static(poblicDirectoryPath))
 //     res.send(poblicDirectoryPathAbout)
 // })
 
-app.get('', (req ,res) => {
+app.get('/', (req ,res) => {
     res.render('index',{
         title:'weather app',
         name:'hezeki',
